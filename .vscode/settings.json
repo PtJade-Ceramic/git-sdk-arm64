@@ -1,0 +1,16 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Git SDK Bash (arm64)": {
+      "path": "${workspaceFolder}\\usr\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ],
+      "icon": "terminal-bash",
+      "env": {
+        "MSYSTEM": "MSYS"
+      }
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git SDK Bash (arm64)"
+}
